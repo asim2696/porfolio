@@ -1,0 +1,120 @@
+/* Responsive Design Media Queries */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 575.98px) {
+ 
+    .h1div {
+      padding-top: 30%;
+      text-align: center;
+    }
+  
+    .h1div h5 {
+      font-size: 30px;
+    }
+  
+    .h1div h1 {
+      font-size: 40px;
+    }
+  
+    .h1div h3 {
+      font-size: 20px;
+    }
+  
+    .h1div i {
+      font-size: 25px;
+    }
+  
+    .heroimg {
+      width: 100%;
+      margin-top: 20px;
+    }
+  .aboutme img {display: none;}
+    .myskill .col-lg-5,
+    .myskill .col-lg-2 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (max-width: 767.98px) {
+    .h1div {
+      padding-top: 25%;
+      text-align: center;
+    }
+  
+    .h1div h5 {
+      font-size: 40px;
+    }
+  
+    .h1div h1 {
+      font-size: 60px;
+    }
+  
+    .h1div h3 {
+      font-size: 25px;
+    }
+  
+    .topnav {
+      text-align: center;
+    }
+  
+    .topnav ul {
+      padding-left: 0;
+    }
+    .aboutme img {display: none;}
+    .myskill .col-lg-5,
+    .myskill .col-lg-2 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  
+    .box1 p,
+    .box2 p {
+      margin: 10px;
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (max-width: 991.98px) {
+    .topnav {
+      font-size: 18px;
+      text-align: center;
+    }
+  
+    .h1div {
+      padding-top: 20%;
+    }
+  
+    .myskill h3,
+    .myportfolio h3,
+    .myservices h3,
+    .myreviews h3 {
+      font-size: 32px;
+      text-align: center;
+    }
+  
+    .heroimg {
+      width: 100%;
+    }
+    .aboutme img {display: none;}
+    .myskill .col-lg-5,
+    .myskill .col-lg-2 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+  
+  /* Extra large devices (1200px and up) */
+  @media (max-width: 1199.98px) {
+    .h1div {
+      padding-top: 15%;
+    }
+  
+    .topnav {
+      font-size: 19px;
+    }
+
+    .aboutme img {padding-top: 20%;}
+  }
+  
